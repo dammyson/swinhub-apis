@@ -1,0 +1,49 @@
+[2021-02-13 21:04:18] production.ERROR: Connection could not be established with host smtp.mailtrap.io :stream_socket_client(): unable to connect to tcp://smtp.mailtrap.io:2525 (An attempt was made to access a socket in a way forbidden by its access permissions.
+)  
+[2021-02-14 16:01:55] production.ERROR: DOMDocument::loadHTML(): Empty string supplied as input  
+[2021-02-14 16:02:29] production.ERROR: DOMDocument::loadHTML(): Empty string supplied as input  
+[2021-02-14 16:03:50] production.ERROR: DOMDocument::loadHTML(): Empty string supplied as input  
+[2021-02-14 16:05:08] production.ERROR: DOMDocument::loadHTML(): Empty string supplied as input  
+[2021-02-14 16:06:38] production.ERROR: DOMDocument::loadHTML(): Empty string supplied as input  
+[2021-02-14 16:07:35] production.ERROR: DOMDocument::loadHTML(): Empty string supplied as input  
+[2021-02-14 17:59:29] production.ERROR: DOMDocument::loadHTML(): Empty string supplied as input  
+[2021-02-21 22:13:00] production.ERROR: Class 'App\Models\PostComment' not found {"exception":"[object] (Error(code: 0): Class 'App\\Models\\PostComment' not found at H:\oot\\home\\swinserver-001\\www\\site1\\swin\\app\\Services\\Comment\\ListService.php:22)
+[stacktrace]
+#0 H:\oot\\home\\swinserver-001\\www\\site1\\swin\\app\\Http\\Controllers\\PostCommentController.php(37): App\\Services\\Comment\\ListService->run()
+#1 H:\oot\\home\\swinserver-001\\www\\site1\\swin\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): App\\Http\\Controllers\\PostCommentController->get()
+#2 H:\oot\\home\\swinserver-001\\www\\site1\\swin\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\ControllerDispatcher.php(45): Illuminate\\Routing\\Controller->callAction()
+#3 H:\oot\\home\\swinserver-001\\www\\site1\\swin\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(254): Illuminate\\Routing\\ControllerDispatcher->dispatch()
+#4 H:\oot\\home\\swinserver-001\\www\\site1\\swin\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(197): Illuminate\\Routing\\Route->runController()
+#5 H:\oot\\home\\swinserver-001\\www\\site1\\swin\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(692): Illuminate\\Routing\\Route->run()
+#6 H:\oot\\home\\swinserver-001\\www\\site1\\swin\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(128): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}()
+#7 H:\oot\\home\\swinserver-001\\www\\site1\\swin\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\SubstituteBindings.php(41): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#8 H:\oot\\home\\swinserver-001\\www\\site1\\swin\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(167): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle()
+#9 H:\oot\\home\\swinserver-001\\www\\site1\\swin\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\ThrottleRequests.php(127): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#10 H:\oot\\home\\swinserver-001\\www\\site1\\swin\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\ThrottleRequests.php(103): Illuminate\\Routing\\Middleware\\ThrottleRequests->handleRequest()
+#11 H:\oot\\home\\swinserver-001\\www\\site1\\swin\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\ThrottleRequests.php(55): Illuminate\\Routing\\Middleware\\ThrottleRequests->handleRequestUsingNamedLimiter()
+#12 H:\oot\\home\\swinserver-001\\www\\site1\\swin\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(167): Illuminate\\Routing\\Middleware\\ThrottleRequests->handle()
+#13 H:\oot\\home\\swinserver-001\\www\\site1\\swin\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(103): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#14 H:\oot\\home\\swinserver-001\\www\\site1\\swin\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(694): Illuminate\\Pipeline\\Pipeline->then()
+#15 H:\oot\\home\\swinserver-001\\www\\site1\\swin\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(669): Illuminate\\Routing\\Router->runRouteWithinStack()
+#16 H:\oot\\home\\swinserver-001\\www\\site1\\swin\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(635): Illuminate\\Routing\\Router->runRoute()
+#17 H:\oot\\home\\swinserver-001\\www\\site1\\swin\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(624): Illuminate\\Routing\\Router->dispatchToRoute()
+#18 H:\oot\\home\\swinserver-001\\www\\site1\\swin\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(166): Illuminate\\Routing\\Router->dispatch()
+#19 H:\oot\\home\\swinserver-001\\www\\site1\\swin\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(128): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}()
+#20 H:\oot\\home\\swinserver-001\\www\\site1\\swin\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#21 H:\oot\\home\\swinserver-001\\www\\site1\\swin\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle()
+#22 H:\oot\\home\\swinserver-001\\www\\site1\\swin\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#23 H:\oot\\home\\swinserver-001\\www\\site1\\swin\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle()
+#24 H:\oot\\home\\swinserver-001\\www\\site1\\swin\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#25 H:\oot\\home\\swinserver-001\\www\\site1\\swin\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle()
+#26 H:\oot\\home\\swinserver-001\\www\\site1\\swin\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(87): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#27 H:\oot\\home\\swinserver-001\\www\\site1\\swin\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle()
+#28 H:\oot\\home\\swinserver-001\\www\\site1\\swin\\vendor\\fruitcake\\laravel-cors\\src\\HandleCors.php(57): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#29 H:\oot\\home\\swinserver-001\\www\\site1\\swin\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(167): Fruitcake\\Cors\\HandleCors->handle()
+#30 H:\oot\\home\\swinserver-001\\www\\site1\\swin\\vendor\\fideloper\\proxy\\src\\TrustProxies.php(57): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#31 H:\oot\\home\\swinserver-001\\www\\site1\\swin\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(167): Fideloper\\Proxy\\TrustProxies->handle()
+#32 H:\oot\\home\\swinserver-001\\www\\site1\\swin\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(103): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#33 H:\oot\\home\\swinserver-001\\www\\site1\\swin\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(141): Illuminate\\Pipeline\\Pipeline->then()
+#34 H:\oot\\home\\swinserver-001\\www\\site1\\swin\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(110): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter()
+#35 H:\oot\\home\\swinserver-001\\www\\site1\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle()
+#36 {main}
+"} 
